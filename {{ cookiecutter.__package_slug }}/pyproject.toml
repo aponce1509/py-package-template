@@ -45,7 +45,7 @@ jupyter = [
 [project.scripts]
 pkg-test = '{{ cookiecutter.__package_slug }}.cli:cli'
 
-# TODO: PYTEST
+# TODO: PYTEST CONFIG
 
 [tool.black]
 line-length = 80
