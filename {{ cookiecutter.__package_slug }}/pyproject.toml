@@ -72,7 +72,7 @@ parallel = true
 source = [
     "docs/examples",
     "tests",
-    "pkgtest"
+    "{{ cookiecutter.__package_slug }}"
 ]
 context = '${CONTEXT}'
 omit = [
